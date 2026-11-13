@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HostMetrics</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="app">
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <div class="sidebar-header">
+                <div class="logo">HostMetrics</div>
+            </div>
+            <div class="sidebar-section-title">Серверы</div>
+            <nav id="servers-list" class="servers-list">
+                <div class="empty-state">Загрузка...</div>
+            </nav>
+        </aside>
+
+        <!-- Main content -->
+        <main class="main">
+            <div id="content">
+                <div class="placeholder">
+                    <div class="placeholder-icon">🖥</div>
+                    <div class="placeholder-text">Выберите сервер в списке слева</div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <script src="/static/script.js"></script>
+</body>
+</html>

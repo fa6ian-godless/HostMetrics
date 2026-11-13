@@ -1,0 +1,24 @@
+{
+    "server": {
+        "name": "Server name"
+    },
+    "webpanel": {
+        "host": "127.0.0.1",
+        "port": 8000
+    },
+    "collector": {
+        "collector_interval_seconds": 1,
+        "reporting_interval_seconds": 1
+    },
+    "network": {
+        "interfaces": "all"
+    },
+    "storage": {
+        "exclude_filesystems": [
+            "proc",
+            "sysfs",
+            "tmpfs",
+            "devtmpfs"
+        ]
+    }
+}
