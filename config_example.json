@@ -1,0 +1,5 @@
+{
+    "server_name": "hostname",
+    "webpanel_ip": "127.0.0.1",
+    "webpanel_port": 8000
+}
