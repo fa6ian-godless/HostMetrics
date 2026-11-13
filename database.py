@@ -33,7 +33,7 @@ def init_database() -> None:
 
     with get_database() as connection:
 
-        conn.execute("""
+        connection.execute("""
             CREATE TABLE IF NOT EXISTS servers (
                 id          INTEGER PRIMARY KEY AUTOINCREMENT,
                 name        TEXT    NOT NULL UNIQUE,
